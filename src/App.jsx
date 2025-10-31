@@ -1,7 +1,14 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Button, Heading, Flex, View, Grid, Divider } from '@aws-amplify/ui-react'
 import reactLogo from './assets/react.svg'
+import { useAuthenticator } from '@aws-amplify/ui-react'
+import { Amplify } from 'aws-amplify'
+import "@aws-amplify/ui-react/styles.css";
+import { geneerateClient} from "aws-amplify/data";
+import outputs from "../amplify_outputs.json";
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Divider } from '@aws-amplify/ui-react'
 
 function App() {
   const [count, setCount] = useState(0)
