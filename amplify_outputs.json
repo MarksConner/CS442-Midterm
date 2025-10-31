@@ -1,0 +1,9 @@
+{
+  "aws_project_region": "us-west-2",
+  "aws_cognito_region": "us-west-2",
+  "aws_user_pools_id": "us-west-2_XXXXXXX",
+  "aws_user_pools_web_client_id": "XXXXXXXXXXXXXXXXXXXX",
+  "aws_appsync_graphqlEndpoint": "...",
+  "aws_appsync_region": "us-west-2",
+  "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS"
+}

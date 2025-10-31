@@ -30,7 +30,7 @@
 }.box:nth-child(3n + 3) {
   grid-column: 3;
 }
-a {
+/*a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -83,3 +83,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
